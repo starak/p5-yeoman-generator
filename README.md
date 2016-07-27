@@ -7,14 +7,29 @@ A [yeoman](http://yeoman.io) generator for a p5 project
 
 ## Getting Started
 
-http://yeoman.io/learning/
+You will need to
 
-## Usage
+- Install nodejs from https://nodejs.org/
+- Install bower `npm install bower -g`
+- Install yo `npm install yo -g`
+- Install this p5 generator `npm install -g generator-p5`
 
-- `mkdir %your-project-dir%`
-- `cd %your-project-dir%`
+For full yeoman instructions goto http://yeoman.io/learning/
+
+## Creating a new Project
+
+From the command line
+
+- `mkdir your-project-dir`
+- `cd your-project-dir`
 - `yo p5`
 
-### License
+## Running the Server
+
+From the command line
+
+- `npm start`
+
+## License
 
 Licensed under the MIT License. See LICENSE in the project root for license information.

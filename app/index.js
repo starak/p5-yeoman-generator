@@ -30,6 +30,7 @@ module.exports = generators.Base.extend({
     },
     depInstall: function(){
       this.bowerInstall();
+      this.npmInstall();
     }
   }
 });
