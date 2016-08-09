@@ -3,9 +3,9 @@
   "version": "1.0.0-alpha.1",
   "main": "sketch.js",
   "scripts": {
-    "start": "lr-http-server -p 4000"
+    "start": "lr-http-server -p 4000 -w *.js,*.css,*.html"
   },
   "devDependencies": {
-    "lr-http-server": "~0.1.1"
+    "lr-http-server": "~0.1.2"
   }
 }
